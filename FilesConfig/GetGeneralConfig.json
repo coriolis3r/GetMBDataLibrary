@@ -1,0 +1,37 @@
+[
+  {
+    "DeviceIdGuid": "2E3A31B9-EBF7-4907G",
+    "ComTypeId": 0,
+    "NCPU": 31,
+    "IPAddress": "0.0.0.0",
+    "ModelName": "ELNET PQ",
+    "MeterMBParConfigList": [
+      {
+        "Models": {
+          "MBFunctionId": 4
+        },
+        "MeasurRange": {
+          "MeasurType": {
+            "MeasurTypeId": 1,
+            "Calculated": false
+          },
+          "Range": "1,56;79,136"
+        },
+        "MeasurMeterList": { "SampleTime": 5 }
+      },
+      {
+        "Models": {
+          "MBFunctionId": 4
+        },
+        "MeasurRange": {
+          "MeasurType": {
+            "MeasurTypeId": 3,
+            "Calculated": false
+          },
+          "Range": "601,664;665,728;729,792;793,856;857,920;921,984;7001,7036;7065,7100;7129,7164;7193,7228;7257,7292;7321,7356"
+        },
+        "MeasurMeterList": { "SampleTime": 5 }
+      }
+    ]
+  }
+]

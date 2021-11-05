@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{536759C2-E036-4913-9503-9DC5DCB91466}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LibrMODBUS</RootNamespace>
+    <AssemblyName>LibrMODBUS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Resources\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Unme.Common, Version=1.1.0.0, Culture=neutral, PublicKeyToken=da57c01ae4598fdd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Resources\Unme.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DataStore.cs" />
+    <Compile Include="Data\DataStoreEventArgs.cs" />
+    <Compile Include="Data\DataStoreFactory.cs" />
+    <Compile Include="Data\DiscreteCollection.cs" />
+    <Compile Include="Data\IModbusMessageDataCollection.cs" />
+    <Compile Include="Data\ModbusDataCollection.cs" />
+    <Compile Include="Data\ModbusDataType.cs" />
+    <Compile Include="Data\RegisterCollection.cs" />
+    <Compile Include="Device\IModbusMaster.cs" />
+    <Compile Include="Device\IModbusSerialMaster.cs" />
+    <Compile Include="Device\IModbusTcpMaster.cs" />
+    <Compile Include="Device\ModbusDevice.cs" />
+    <Compile Include="Device\ModbusIpMaster.cs" />
+    <Compile Include="Device\ModbusMaster.cs" />
+    <Compile Include="Device\ModbusMasterTcpConnection.cs" />
+    <Compile Include="Device\ModbusSerialMaster.cs" />
+    <Compile Include="Device\ModbusSerialSlave.cs" />
+    <Compile Include="Device\ModbusSlave.cs" />
+    <Compile Include="Device\ModbusSlaveRequestEventArgs.cs" />
+    <Compile Include="Device\ModbusTcpSlave.cs" />
+    <Compile Include="Device\ModbusUdpSlave.cs" />
+    <Compile Include="Device\TcpConnectionEventArgs.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="IO\CrossPlatformUdpClient.cs" />
+    <Compile Include="IO\EmptyTransport.cs" />
+    <Compile Include="IO\FullUdpClient.cs" />
+    <Compile Include="IO\ISerialPortAdapter.cs" />
+    <Compile Include="IO\ISerialResource.cs" />
+    <Compile Include="IO\IStreamResource.cs" />
+    <Compile Include="IO\ModbusAsciiTransport.cs" />
+    <Compile Include="IO\ModbusIpTransport.cs" />
+    <Compile Include="IO\ModbusRtuTransport.cs" />
+    <Compile Include="IO\ModbusSerialTransport.cs" />
+    <Compile Include="IO\ModbusTransport.cs" />
+    <Compile Include="IO\SerialPortAdapter.cs" />
+    <Compile Include="IO\StreamResourceUtility.cs" />
+    <Compile Include="IO\TcpClientAdapter.cs" />
+    <Compile Include="IO\UdpClientAdapter.cs" />
+    <Compile Include="Message\DiagnosticsRequestResponse.cs" />
+    <Compile Include="Message\IModbusMessage.cs" />
+    <Compile Include="Message\IModbusMessageWithData.cs" />
+    <Compile Include="Message\IModbusRequest.cs" />
+    <Compile Include="Message\ModbusMessage.cs" />
+    <Compile Include="Message\ModbusMessageFactory.cs" />
+    <Compile Include="Message\ModbusMessageImpl.cs" />
+    <Compile Include="Message\ModbusMessageWithData.cs" />
+    <Compile Include="Message\ReadCoilsInputsRequest.cs" />
+    <Compile Include="Message\ReadCoilsInputsResponse.cs" />
+    <Compile Include="Message\ReadHoldingInputRegistersRequest.cs" />
+    <Compile Include="Message\ReadHoldingInputRegistersResponse.cs" />
+    <Compile Include="Message\ReadWriteMultipleRegistersRequest.cs" />
+    <Compile Include="Message\SlaveExceptionResponse.cs" />
+    <Compile Include="Message\WriteMultipleCoilsRequest.cs" />
+    <Compile Include="Message\WriteMultipleCoilsResponse.cs" />
+    <Compile Include="Message\WriteMultipleRegistersRequest.cs" />
+    <Compile Include="Message\WriteMultipleRegistersResponse.cs" />
+    <Compile Include="Message\WriteSingleCoilRequestResponse.cs" />
+    <Compile Include="Message\WriteSingleRegisterRequestResponse.cs" />
+    <Compile Include="Modbus.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources.Designer.cs" />
+    <Compile Include="SlaveException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utility\DiscriminatedUnion.cs" />
+    <Compile Include="Utility\ModbusUtility.cs" />
+    <Compile Include="Util\CollectionUtil.cs" />
+    <Compile Include="Util\DelegateDefinitions.cs" />
+    <Compile Include="Util\ModbusUtil.cs" />
+    <Compile Include="Util\StringUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resource1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UtilytyDll\log4net.dll" />
+    <Content Include="UtilytyDll\Unme.Common.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
