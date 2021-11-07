@@ -1,0 +1,237 @@
+IndexId,MeterModelID,ParameterID,Name,MBRegID,DataTypeId,Multiplier,MeasureTypeId,selected
+1,Elnet LT,1,Voltaje L1,1,2,1,1,1
+2,Elnet LT,2,Voltaje L2,3,2,1,1,1
+3,Elnet LT,3,Voltaje L3,5,2,1,1,1
+4,Elnet LT,4,Voltaje L12,7,2,1,1,1
+5,Elnet LT,5,Voltaje L23,9,2,1,1,1
+6,Elnet LT,6,Voltaje L13,11,2,1,1,1
+7,Elnet LT,7,Corriente L1,13,2,1,1,1
+8,Elnet LT,8,Corriente L2,15,2,1,1,1
+9,Elnet LT,9,Corriente L3,17,2,1,1,1
+10,Elnet LT,10,Frecuencia L1,51,2,1,1,1
+11,Elnet LT,11,Frecuencia L2,53,2,1,1,1
+12,Elnet LT,12,Frecuencia L3,55,2,1,1,1
+13,Elnet LT,13,Factor de Potencia L1,43,2,1,1,1
+14,Elnet LT,14,Factor de Potencia L2,45,2,1,1,1
+15,Elnet LT,15,Factor de Potencia L3,47,2,1,1,1
+16,Elnet LT,16,Factor de potencia Total,49,2,1,1,1
+17,Elnet LT,17,Potencia Activa L1,19,2,1,1,1
+18,Elnet LT,18,Potencia Activa L2,21,2,1,1,1
+19,Elnet LT,19,Potencia Activa L3,23,2,1,1,1
+20,Elnet LT,20,Potencia Activa Total,25,2,1,1,1
+21,Elnet LT,21,Potencia Aparente L1,27,2,1,1,0
+22,Elnet LT,22,Potencia Aparente L2,29,2,1,1,0
+23,Elnet LT,23,Potencia Aparente L3,31,2,1,1,0
+24,Elnet LT,24,Potencia Aparente Total,33,2,1,1,1
+25,Elnet LT,25,Potencia Reactiva L1,35,2,1,1,0
+26,Elnet LT,26,Potencia Reactiva L2,37,2,1,1,0
+27,Elnet LT,27,Potencia Reactiva L3,39,2,1,1,0
+28,Elnet LT,28,Potencia Reactiva Total,41,2,1,1,1
+29,Elnet LT,29,Energía Activa L1,119,2,1,1,0
+30,Elnet LT,30,Energía Activa L2,121,2,1,1,0
+31,Elnet LT,31,Energía Activa L3,123,2,1,1,0
+32,Elnet LT,32,Energía Activa Total,79,2,1,1,1
+33,Elnet LT,33,Energía Aparente L1,131,2,1,1,0
+34,Elnet LT,34,Energía Aparente L2,133,2,1,1,0
+35,Elnet LT,35,Energía Aparente L3,135,2,1,1,0
+36,Elnet LT,36,Energía Aparente Total,83,2,1,1,1
+37,Elnet LT,37,Energía Reactiva L1,125,2,1,1,0
+38,Elnet LT,38,Energía Reactiva L2,127,2,1,1,0
+39,Elnet LT,39,Energía Reactiva L3,129,2,1,1,0
+40,Elnet LT,40,Energía Reactiva Total,81,2,1,1,1
+41,Elnet LT,41,Distorsión Armónica Volt L1 (%THD-V1),105,2,1,1,1
+42,Elnet LT,42,Distorsión Armónica Volt L2 (%THD-V2),107,2,1,1,1
+43,Elnet LT,43,Distorsión Armónica Volt L3 (%THD-V3),109,2,1,1,1
+44,Elnet LT,44,Distorsión Armónica Corr L1 (%THD-I1),111,2,1,1,1
+45,Elnet LT,45,Distorsión Armónica Corr L2 (%THD-I2),113,2,1,1,1
+46,Elnet LT,46,Distorsión Armónica Corr L3 (%THD-I3),115,2,1,1,1
+47,Elnet LT,47,1st Armónico VL1,601,2,1,3,1
+48,Elnet LT,48,2nd Armónico VL1,603,2,1,3,1
+49,Elnet LT,49,3rd Armónico VL1,605,2,1,3,1
+50,Elnet LT,50,4th Armónico VL1,607,2,1,3,1
+51,Elnet LT,51,5st Armónico VL1,609,2,1,3,1
+52,Elnet LT,52,6st Armónico VL1,611,2,1,3,1
+53,Elnet LT,53,7st Armónico VL1,613,2,1,3,1
+54,Elnet LT,54,8st Armónico VL1,615,2,1,3,1
+55,Elnet LT,55,9st Armónico VL1,617,2,1,3,1
+56,Elnet LT,56,10st Armónico VL1,619,2,1,3,1
+57,Elnet LT,57,11st Armónico VL1,621,2,1,3,1
+58,Elnet LT,58,12st Armónico VL1,623,2,1,3,1
+59,Elnet LT,59,13st Armónico VL1,625,2,1,3,1
+60,Elnet LT,60,14st Armónico VL1,627,2,1,3,1
+61,Elnet LT,61,15st Armónico VL1,629,2,1,3,1
+62,Elnet LT,62,16st Armónico VL1,631,2,1,3,0
+63,Elnet LT,63,17st Armónico VL1,633,2,1,3,0
+64,Elnet LT,64,18st Armónico VL1,635,2,1,3,0
+65,Elnet LT,65,19st Armónico VL1,637,2,1,3,0
+66,Elnet LT,66,20st Armónico VL1,639,2,1,3,0
+67,Elnet LT,67,21st Armónico VL1,641,2,1,3,0
+68,Elnet LT,68,22st Armónico VL1,643,2,1,3,0
+69,Elnet LT,69,23st Armónico VL1,645,2,1,3,0
+70,Elnet LT,70,24st Armónico VL1,647,2,1,3,0
+71,Elnet LT,71,25st Armónico VL1,649,2,1,3,0
+72,Elnet LT,72,26st Armónico VL1,651,2,1,3,0
+73,Elnet LT,73,27st Armónico VL1,653,2,1,3,0
+74,Elnet LT,74,28st Armónico VL1,655,2,1,3,0
+75,Elnet LT,75,29st Armónico VL1,657,2,1,3,0
+76,Elnet LT,76,30st Armónico VL1,659,2,1,3,0
+77,Elnet LT,77,1st Armónico VL2,665,2,1,3,1
+78,Elnet LT,78,2st Armónico VL2,667,2,1,3,1
+79,Elnet LT,79,3st Armónico VL2,669,2,1,3,1
+80,Elnet LT,80,4st Armónico VL2,671,2,1,3,1
+81,Elnet LT,81,5st Armónico VL2,673,2,1,3,1
+82,Elnet LT,82,6st Armónico VL2,675,2,1,3,1
+83,Elnet LT,83,7st Armónico VL2,677,2,1,3,1
+84,Elnet LT,84,8st Armónico VL2,679,2,1,3,1
+85,Elnet LT,85,9st Armónico VL2,681,2,1,3,1
+86,Elnet LT,86,10st Armónico VL2,683,2,1,3,1
+87,Elnet LT,87,11st Armónico VL2,685,2,1,3,1
+88,Elnet LT,88,12st Armónico VL2,687,2,1,3,1
+89,Elnet LT,89,13st Armónico VL2,689,2,1,3,1
+90,Elnet LT,90,14st Armónico VL2,691,2,1,3,1
+91,Elnet LT,91,15st Armónico VL2,693,2,1,3,1
+92,Elnet LT,92,16st Armónico VL2,695,2,1,3,0
+93,Elnet LT,93,17st Armónico VL2,697,2,1,3,0
+94,Elnet LT,94,18st Armónico VL2,699,2,1,3,0
+95,Elnet LT,95,19st Armónico VL1,701,2,1,3,0
+96,Elnet LT,96,20st Armónico VL2,703,2,1,3,0
+97,Elnet LT,97,21st Armónico VL2,705,2,1,3,0
+98,Elnet LT,98,22st Armónico VL2,707,2,1,3,0
+99,Elnet LT,99,23st Armónico VL2,709,2,1,3,0
+100,Elnet LT,100,24st Armónico VL2,711,2,1,3,0
+101,Elnet LT,101,25st Armónico VL2,713,2,1,3,0
+102,Elnet LT,102,26st Armónico VL2,715,2,1,3,0
+103,Elnet LT,103,27st Armónico VL2,717,2,1,3,0
+104,Elnet LT,104,28st Armónico VL2,719,2,1,3,0
+105,Elnet LT,105,29st Armónico VL2,721,2,1,3,0
+106,Elnet LT,106,30st Armónico VL2,723,2,1,3,0
+107,Elnet LT,107,1st Armónico VL3,729,2,1,3,1
+108,Elnet LT,108,2st Armónico VL3,731,2,1,3,1
+109,Elnet LT,109,3st Armónico VL3,733,2,1,3,1
+110,Elnet LT,110,4st Armónico VL3,735,2,1,3,1
+111,Elnet LT,111,5st Armónico VL3,737,2,1,3,1
+112,Elnet LT,112,6st Armónico VL3,739,2,1,3,1
+113,Elnet LT,113,7st Armónico VL3,741,2,1,3,1
+114,Elnet LT,114,8st Armónico VL3,743,2,1,3,1
+115,Elnet LT,115,9st Armónico VL3,745,2,1,3,1
+116,Elnet LT,116,10st Armónico VL3,747,2,1,3,1
+117,Elnet LT,117,11st Armónico VL3,749,2,1,3,1
+118,Elnet LT,118,12st Armónico VL3,751,2,1,3,1
+119,Elnet LT,119,13st Armónico VL3,753,2,1,3,1
+120,Elnet LT,120,14st Armónico VL3,755,2,1,3,1
+121,Elnet LT,121,15st Armónico VL3,757,2,1,3,1
+122,Elnet LT,122,16st Armónico VL3,759,2,1,3,0
+123,Elnet LT,123,17st Armónico VL3,761,2,1,3,0
+124,Elnet LT,124,18st Armónico VL3,763,2,1,3,0
+125,Elnet LT,125,19st Armónico VL3,765,2,1,3,0
+126,Elnet LT,126,20st Armónico VL3,767,2,1,3,0
+127,Elnet LT,127,21st Armónico VL3,769,2,1,3,0
+128,Elnet LT,128,22st Armónico VL3,771,2,1,3,0
+129,Elnet LT,129,23st Armónico VL3,773,2,1,3,0
+130,Elnet LT,130,24st Armónico VL3,775,2,1,3,0
+131,Elnet LT,131,25st Armónico VL3,777,2,1,3,0
+132,Elnet LT,132,26st Armónico VL3,779,2,1,3,0
+133,Elnet LT,133,27st Armónico VL3,781,2,1,3,0
+134,Elnet LT,134,28st Armónico VL3,783,2,1,3,0
+135,Elnet LT,135,29st Armónico VL3,785,2,1,3,0
+136,Elnet LT,136,30st Armónico VL3,787,2,1,3,0
+137,Elnet LT,137,1st Armónico IL1,793,2,1,3,1
+138,Elnet LT,138,2st Armónico IL1,795,2,1,3,1
+139,Elnet LT,139,3st Armónico IL1,797,2,1,3,1
+140,Elnet LT,140,4st Armónico IL1,799,2,1,3,1
+141,Elnet LT,141,5st Armónico IL1,801,2,1,3,1
+142,Elnet LT,142,6st Armónico IL1,803,2,1,3,1
+143,Elnet LT,143,7st Armónico IL1,805,2,1,3,1
+144,Elnet LT,144,8st Armónico IL1,807,2,1,3,1
+145,Elnet LT,145,9st Armónico IL1,809,2,1,3,1
+146,Elnet LT,146,10st Armónico IL1,811,2,1,3,1
+147,Elnet LT,147,11st Armónico IL1,813,2,1,3,1
+148,Elnet LT,148,12st Armónico IL1,815,2,1,3,1
+149,Elnet LT,149,13st Armónico IL1,817,2,1,3,1
+150,Elnet LT,150,14st Armónico IL1,819,2,1,3,1
+151,Elnet LT,151,15st Armónico IL1,821,2,1,3,1
+152,Elnet LT,152,16st Armónico IL1,823,2,1,3,0
+153,Elnet LT,153,17st Armónico IL1,825,2,1,3,0
+154,Elnet LT,154,18st Armónico IL1,827,2,1,3,0
+155,Elnet LT,155,19st Armónico IL1,829,2,1,3,0
+156,Elnet LT,156,20st Armónico IL1,831,2,1,3,0
+157,Elnet LT,157,21st Armónico IL1,833,2,1,3,0
+158,Elnet LT,158,22st Armónico IL1,835,2,1,3,0
+159,Elnet LT,159,23st Armónico IL1,837,2,1,3,0
+160,Elnet LT,160,24st Armónico IL1,839,2,1,3,0
+161,Elnet LT,161,25st Armónico IL1,841,2,1,3,0
+162,Elnet LT,162,26st Armónico IL1,843,2,1,3,0
+163,Elnet LT,163,27st Armónico IL1,845,2,1,3,0
+164,Elnet LT,164,28st Armónico IL1,847,2,1,3,0
+165,Elnet LT,165,29st Armónico IL1,849,2,1,3,0
+166,Elnet LT,166,30st Armónico IL1,851,2,1,3,0
+167,Elnet LT,167,1st Armónico IL2,857,2,1,3,1
+168,Elnet LT,168,2st Armónico IL2,859,2,1,3,1
+169,Elnet LT,169,3st Armónico IL2,861,2,1,3,1
+170,Elnet LT,170,4st Armónico IL2,863,2,1,3,1
+171,Elnet LT,171,5st Armónico IL2,865,2,1,3,1
+172,Elnet LT,172,6st Armónico IL2,867,2,1,3,1
+173,Elnet LT,173,7st Armónico IL2,869,2,1,3,1
+174,Elnet LT,174,8st Armónico IL2,871,2,1,3,1
+175,Elnet LT,175,9st Armónico IL2,873,2,1,3,1
+176,Elnet LT,176,10st Armónico IL2,875,2,1,3,1
+177,Elnet LT,177,11st Armónico IL2,877,2,1,3,1
+178,Elnet LT,178,12st Armónico IL2,879,2,1,3,1
+179,Elnet LT,179,13st Armónico IL2,881,2,1,3,1
+180,Elnet LT,180,14st Armónico IL2,883,2,1,3,1
+181,Elnet LT,181,15st Armónico IL2,885,2,1,3,1
+182,Elnet LT,182,16st Armónico IL2,887,2,1,3,0
+183,Elnet LT,183,17st Armónico IL2,889,2,1,3,0
+184,Elnet LT,184,18st Armónico IL2,891,2,1,3,0
+185,Elnet LT,185,19st Armónico IL2,893,2,1,3,0
+186,Elnet LT,186,20st Armónico IL2,895,2,1,3,0
+187,Elnet LT,187,21st Armónico IL2,897,2,1,3,0
+188,Elnet LT,188,22st Armónico IL2,899,2,1,3,0
+189,Elnet LT,189,23st Armónico IL2,901,2,1,3,0
+190,Elnet LT,190,24st Armónico IL2,903,2,1,3,0
+191,Elnet LT,191,25st Armónico IL2,905,2,1,3,0
+192,Elnet LT,192,26st Armónico IL2,907,2,1,3,0
+193,Elnet LT,193,27st Armónico IL2,909,2,1,3,0
+194,Elnet LT,194,28st Armónico IL2,911,2,1,3,0
+195,Elnet LT,195,29st Armónico IL2,913,2,1,3,0
+196,Elnet LT,196,30st Armónico IL2,915,2,1,3,0
+197,Elnet LT,197,1st Armónico IL3,921,2,1,3,1
+198,Elnet LT,198,2st Armónico IL3,923,2,1,3,1
+199,Elnet LT,199,3st Armónico IL3,925,2,1,3,1
+200,Elnet LT,200,4st Armónico IL3,927,2,1,3,1
+201,Elnet LT,201,5st Armónico IL3,929,2,1,3,1
+202,Elnet LT,202,6st Armónico IL3,931,2,1,3,1
+203,Elnet LT,203,7st Armónico IL3,933,2,1,3,1
+204,Elnet LT,204,8st Armónico IL3,935,2,1,3,1
+205,Elnet LT,205,9st Armónico IL3,937,2,1,3,1
+206,Elnet LT,206,10st Armónico IL3,939,2,1,3,1
+207,Elnet LT,207,11st Armónico IL3,941,2,1,3,1
+208,Elnet LT,208,12st Armónico IL3,943,2,1,3,1
+209,Elnet LT,209,13st Armónico IL3,945,2,1,3,1
+210,Elnet LT,210,14st Armónico IL3,947,2,1,3,1
+211,Elnet LT,211,15st Armónico IL3,949,2,1,3,1
+212,Elnet LT,212,16st Armónico IL3,951,2,1,3,0
+213,Elnet LT,213,17st Armónico IL3,953,2,1,3,0
+214,Elnet LT,214,18st Armónico IL3,955,2,1,3,0
+215,Elnet LT,215,19st Armónico IL3,957,2,1,3,0
+216,Elnet LT,216,20st Armónico IL3,959,2,1,3,0
+217,Elnet LT,217,21st Armónico IL3,961,2,1,3,0
+218,Elnet LT,218,22st Armónico IL3,963,2,1,3,0
+219,Elnet LT,219,23st Armónico IL3,965,2,1,3,0
+220,Elnet LT,220,24st Armónico IL3,967,2,1,3,0
+221,Elnet LT,221,25st Armónico IL3,969,2,1,3,0
+222,Elnet LT,222,26st Armónico IL3,971,2,1,3,0
+223,Elnet LT,223,27st Armónico IL3,973,2,1,3,0
+224,Elnet LT,224,28st Armónico IL3,975,2,1,3,0
+225,Elnet LT,225,29st Armónico IL3,977,2,1,3,0
+226,Elnet LT,226,30st Armónico IL3,979,2,1,3,0
+227,Elnet LT,229,Demanda Máxima de Corriente,0,0,0,0,0
+228,Elnet LT,230,Hora de demanda máxima de corriente,0,0,0,0,0
+229,Elnet LT,231,Energía Tarifa 1 Total,155,2,1,0,0
+230,Elnet LT,232,Energía Tarifa 2 Total,157,2,1,0,0
+231,Elnet LT,233,Energía Tarifa 3 Total,159,2,1,0,0
+232,Elnet LT,234,Demanda de Potencia Actual,0,0,0,0,0
+233,Elnet LT,235,Demanda de Potencia Calculada,0,0,0,0,0
+234,Elnet LT,236,Energía Activa Acumulada,,,,,
+235,Elnet LT,237,Desbalance de voltaje,,,,,
+236,Elnet LT,238,Desbalance de corriente,,,,,

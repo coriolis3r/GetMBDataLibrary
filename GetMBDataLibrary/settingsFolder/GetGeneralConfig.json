@@ -1,0 +1,44 @@
+[
+  {
+    "DeviceIdGuid": "7CE7D72A-F440-46D8-9",
+    "MeterId": 1,
+    "ComTypeId": 0,
+    "NCPU": 31,
+    "IPAddress": "0.0.0.0",
+    "ModelName": "ELNET LT",
+    "MeterMBParConfigList": [
+      {
+        "Models": {
+          "ModelId": 1,
+          "ModelName": "",
+          "MeterTypeId": 0,
+          "MBFunctionId": 4
+        },
+        "MeasurRange": {
+          "MeasurType": {
+            "MeasurTypeId": 1,
+            "Calculated": false
+          },
+          "Range": "1,56;79,136"
+        },
+        "MeasurMeterList": { "SampleTime": 5 }
+      },
+      {
+        "Models": {
+          "ModelId": 1,
+          "ModelName": "",
+          "MeterTypeId": 0,
+          "MBFunctionId": 4
+        },
+        "MeasurRange": {
+          "MeasurType": {
+            "MeasurTypeId": 3,
+            "Calculated": false
+          },
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
+        },
+        "MeasurMeterList": { "SampleTime": 5 }
+      }
+    ]
+  }
+]
