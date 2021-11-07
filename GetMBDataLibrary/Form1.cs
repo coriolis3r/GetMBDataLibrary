@@ -60,7 +60,7 @@ namespace GetMBDataLibrary
         private void LoadData()
         {
             string[] lines = File.ReadAllLines(csvFilePath);
-
+            
             int cntR = 0;
             int cntR1 = 0;
             int cntR2 = 0;
@@ -136,7 +136,7 @@ namespace GetMBDataLibrary
                             mbrL1.Add(mbr);
                         }
                     }
-
+                    
                     cntR1++;
 
                 }
@@ -227,7 +227,7 @@ namespace GetMBDataLibrary
                 if (MBModel.Count > 0)
                 {
                     MBModelsL mbModL = new MBModelsL();
-
+                   
                     string RowName = lines[1];
                     var Nam = RowName.Split(',');
 
@@ -257,7 +257,7 @@ namespace GetMBDataLibrary
                 {
                     SendDataToService(data);
                     RefillData();
-
+                    
                 }
             }
             catch (Exception ex)
@@ -285,7 +285,7 @@ namespace GetMBDataLibrary
                                 {
                                     row = new string[] { mbR.ParameterID.ToString(), mbR.Name, mbR.MBRegID.ToString(), mbR.Multiplier.ToString(), vmbD.ListeningValue.ToString() };
                                     dgvData.Rows.Add(row);
-
+                                    
                                 }
                             }
                         }
@@ -349,24 +349,24 @@ namespace GetMBDataLibrary
                         }
                         catch (Exception ex)
                         {
-
+                            
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-
+                
             }
         }
-
+        
         private void SaveListeningsFile(List<MeterListening> listenings)
         {
             string filename = string.Format("{0}{1:ddMMyyyy_HHmmss.ffffff}.json", backupFolder, DateTime.Now);
             string json = Newtonsoft.Json.JsonConvert.SerializeObject(listenings);
             System.IO.File.AppendAllText(filename, json);
         }
-
+        
         private void cmdProcess_Click(object sender, EventArgs e)
         {
             LoadInfoData();
