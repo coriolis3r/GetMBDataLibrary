@@ -1,0 +1,5 @@
+{
+  "Name": "COM7",
+  "BaudRate": 9600,
+  "Parity": "Even"
+}

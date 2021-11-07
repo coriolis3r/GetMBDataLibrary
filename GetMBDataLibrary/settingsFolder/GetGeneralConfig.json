@@ -1,13 +1,17 @@
 [
   {
-    "DeviceIdGuid": "2E3A31B9-EBF7-4907G",
+    "DeviceIdGuid": "7CE7D72A-F440-46D8-9",
+    "MeterId": 1,
     "ComTypeId": 0,
     "NCPU": 31,
     "IPAddress": "0.0.0.0",
-    "ModelName": "ELNET PQ",
+    "ModelName": "ELNET LT",
     "MeterMBParConfigList": [
       {
         "Models": {
+          "ModelId": 1,
+          "ModelName": "",
+          "MeterTypeId": 0,
           "MBFunctionId": 4
         },
         "MeasurRange": {
@@ -21,6 +25,9 @@
       },
       {
         "Models": {
+          "ModelId": 1,
+          "ModelName": "",
+          "MeterTypeId": 0,
           "MBFunctionId": 4
         },
         "MeasurRange": {
@@ -28,7 +35,7 @@
             "MeasurTypeId": 3,
             "Calculated": false
           },
-          "Range": "601,664;665,728;729,792;793,856;857,920;921,984;7001,7036;7065,7100;7129,7164;7193,7228;7257,7292;7321,7356"
+          "Range": "601,630;665,694;729,758;793,822;857,886;921,950"
         },
         "MeasurMeterList": { "SampleTime": 5 }
       }
