@@ -70,6 +70,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="csvFiles\CVMC10.csv" />
     <None Include="csvFiles\Elnet LT.csv" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
